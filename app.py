@@ -4,17 +4,16 @@ import streamlit as st
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
 
-# Web App Title
 st.markdown('''
-# **The EDA App**
-This is the **EDA App** created in Streamlit using the **pandas-profiling** library.
-**Credit:** App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
----
+# Exploratory Data Analysis App
+- This app performs EDA based upon the Pandas Profiling Report!
+- App built by Pranav Sawant and Anshuman Shukla of Team Skillocity
+- Note: Data inputs are taken from the sidebar at the top left of the page (arrow symbol). User dataset can be added from the sidebar and a sample dataset has also been provided for convenience.
 ''')
 
 # Upload CSV data
-with st.sidebar.header('1. Upload your CSV data'):
-    uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
+with st.sidebar.header('1. Upload your CSV dataset'):
+    uploaded_file = st.sidebar.file_uploader("Upload your input CSV file for EDA", type=["csv"])
     st.sidebar.markdown("""
 [Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
 """)
