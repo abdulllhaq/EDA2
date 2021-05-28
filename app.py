@@ -9,6 +9,7 @@ st.markdown('''
 - This app performs EDA based upon the Pandas Profiling Report!
 - App built by Pranav Sawant and Anshuman Shukla of Team Skillocity
 - Note: Data inputs are taken from the sidebar at the top left of the page (arrow symbol). User dataset can be added from the sidebar and a sample dataset has also been provided for convenience.
+- Tap the button named 'Sample Dataset' to obtain a report for s and p 500 companies. 
 ''')
 
 # Upload CSV data
