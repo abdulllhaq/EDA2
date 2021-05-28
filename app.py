@@ -32,8 +32,8 @@ if uploaded_file is not None:
     st.header('**Pandas Profiling Report**')
     st_profile_report(pr)
 else:
-    st.info('Awaiting for CSV file to be uploaded.')
-    if st.button('Press to use Example Dataset'):
+    st.info('Waiting for CSV file to be uploaded.')
+    if st.button('Sample Dataset'):
         # Example data
         @st.cache
         def load_data():
