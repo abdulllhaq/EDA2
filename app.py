@@ -27,7 +27,7 @@ if uploaded_file is not None:
         return csv
     df = load_csv()
     pr = ProfileReport(df, explorative=True)
-    st.header('**Input DataFrame**')
+    st.header('**Input Data Frame**')
     st.write(df)
     st.write('---')
     st.header('**Pandas Profiling Report**')
