@@ -16,7 +16,7 @@ st.markdown('''
 with st.sidebar.header('1. Upload your CSV dataset'):
     uploaded_file = st.sidebar.file_uploader("Upload your input CSV file for EDA", type=["csv"])
     st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
+[Sample CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/delaney_solubility_with_descriptors.csv)
 """)
 
 # Pandas Profiling Report
