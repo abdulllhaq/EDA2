@@ -51,6 +51,6 @@ else:
         st.write('---')
         st.header('**Pandas Profiling Report**')
         st_profile_report(pr)
-st.sidebar.subheader("An article about this app: https://proskillocity.blogspot.com/2021/06/blog-post.html")
+st.sidebar.subheader("An article about this app: https://proskillocity.blogspot.com/2021/06/exploratory-data-analysis-using-pandas.html")
 image = Image.open('killocity (3).png')
 st.image(image, use_column_width=True)
