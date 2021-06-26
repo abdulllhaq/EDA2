@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from pandas_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
+from PIL import Image,ImageFilter,ImageEnhance
 
 st.markdown('''
 # Exploratory Data Analysis App
@@ -50,3 +51,6 @@ else:
         st.write('---')
         st.header('**Pandas Profiling Report**')
         st_profile_report(pr)
+st.sidebar.subheader("An article about this app: https://proskillocity.blogspot.com/2021/06/blog-post.html")
+image = Image.open('killocity (3).png')
+st.image(image, use_column_width=True)
