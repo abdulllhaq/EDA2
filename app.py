@@ -8,7 +8,7 @@ from PIL import Image,ImageFilter,ImageEnhance
 st.markdown('''
 # Exploratory Data Analysis App
 - This app performs EDA based upon the Pandas Profiling Report!
-- App built by Pranav Sawant and Anshuman Shukla of Team Skillocity
+- App built by Anshuman Shukla and Pranav Sawant of Team Skillocity
 - Note: Data inputs are taken from the sidebar at the top left of the page (arrow symbol). User dataset can be added from the sidebar and a sample dataset has also been provided for convenience.
 - Tap the button named 'Sample Dataset' to obtain a report for the Pima Indian Diabetes Dataset. 
 ''')
